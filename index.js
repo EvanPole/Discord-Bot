@@ -149,30 +149,6 @@ bot.on("guildMemberRemove", member => {
 
 
 
-
-
-
-
-// warn systeme
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//  install
-
-
 bot.on('message', message => {
   if (message.content === '$install') {
       var server = message.guild;
@@ -194,10 +170,6 @@ bot.on('message', message => {
     })
   }
 });
-
-
-
-
 
 
 bot.login('token')
